@@ -1,0 +1,10 @@
+html, body{
+    font-family: "open sans";
+}
+body{
+	margin-top: 70px;
+}
+.long_for_scroll{
+	height: 2000px;
+	width: 100%;
+}
