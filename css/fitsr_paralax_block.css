@@ -15,10 +15,7 @@
 
 
 
-.first_paralax_block_text{
-	text-transform: uppercase;
-	font-size: 50px;
-	font-weight: 900;
+.first_paralax_block_text {
 	position: absolute;
 	top: 50%;
 	left:0;
@@ -31,7 +28,7 @@
 
 }
 
-.first_paralax_block_background{
+.first_paralax_block_background {
 	position: absolute;
 	left: 50%;
 	top:50%;
@@ -43,3 +40,14 @@
 	height: 747px;
 	transform: translate(-50%, -50%);
 }
+
+.first_paralax_block_text_title{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.first_paralax_block_text_article{
+ 	font-size: 10px;
+ 	
+}	
