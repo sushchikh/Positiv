@@ -1,0 +1,138 @@
+.second_paralax_container{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+	.second_paralax_background{
+		background-image: url(../img/second_paralax_block/second_paralax_block_background.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 747px;
+		position: absolute;
+		top:-10%;
+	}
+
+	.second_paralax_container_width_wrapper{
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		z-index: 8888;
+	}
+		
+		.second_paralax_first_string{
+			display: flex;
+			justify-content: flex-end;
+			
+		}
+
+		.second_paralax_first_string_title{
+			color: #fff;
+			font-size: 2em;
+			font-weight: 900;
+			border-radius: 5px;
+			padding: 10px 40px;
+			border: 1px solid #fff;
+			text-transform: uppercase;
+			background-color: rgba(26, 133, 199, .5);
+
+		}
+
+	
+
+		.second_paralax_second_string_box{
+			width: 100px;
+			height: 30px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			background-color: rgba(26, 133, 199, .5);
+			color: #fff;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+	.second_paralax_background{
+		background-image: url(../img/second_paralax_block/second_paralax_block_background.jpg););
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 747px;
+		position: absolute;
+		top:-10%;
+	}
+
+	.second_paralax_container_first_string{
+		width: 60%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		flex-direction: row;
+		position: absolute;
+		margin-top: 30px;
+	}
+
+		.second_paralax_first_string_title{
+			color: #fff;
+			font-size: 2em;
+			font-weight: 600;
+			border-radius: 5px;
+			padding: 10px 40px;
+			border: 1px solid #fff;
+			text-transform: uppercase;
+			position: relative;
+			top: -120px;
+			left: -50px;
+			background-color: rgba(26, 133, 199, .5);
+		}
+
+
+	.second_paralax_container_second_string{
+		width: 60%;
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		position: absolute;
+		top: 150px;
+	}
+		.second_paralax_container_second_string_box{
+			z-index: 8888;
+			width: 100px;
+			height: 100px;
+			background-color: rgba(26, 133, 199, .5);
+		} */

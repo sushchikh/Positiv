@@ -1,13 +1,20 @@
 .text_block_container {
 	height: 300px;
 	width: 100%;
-	text-align: center;
-	padding: 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
 	border-bottom: 1px solid gray;
 }
 
-	.text_block_title{
-		font-size: 30px;
-		text-transform: uppercase;
-		letter-spacing: .08em;
-	}	
+	.text_block_wrapper{
+		width: 60%;
+		text-align: left;
+	}
+
+		.text_block_title{
+			font-size: 30px;
+			text-transform: uppercase;
+			letter-spacing: .08em;
+		}	
